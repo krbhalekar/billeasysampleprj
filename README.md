@@ -50,13 +50,13 @@ Build a secure file upload service in Node.js that stores file metadata in a dat
     - REDIS_QUEUE = 'bill-easy-queue'
 
 - Run the file named as app.js using below mentioned command
-      - node app.js
+    - node app.js
 
 - Run the file named as addfiletoredis.js using below mentioned command
-      - node cron/addfiletoredis.js
+    - node cron/addfiletoredis.js
 
 - Run the file named as consumer.js using below mentioned command
-      - node redis/consumer.js
+    - node redis/consumer.js
 
 ## Example
 
