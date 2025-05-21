@@ -62,7 +62,7 @@ Build a secure file upload service in Node.js that stores file metadata in a dat
 
 - User Creation API
 
-curl --location 'http://localhost:9891/user/create' \
+    - curl --location 'http://localhost:9891/user/create' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "email":"abc@gmail.com",
@@ -71,7 +71,7 @@ curl --location 'http://localhost:9891/user/create' \
 
 - Login API
 
-curl --location 'http://localhost:9891/user/login' \
+    - curl --location 'http://localhost:9891/user/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "email":"krb15784@gmail.com",
@@ -80,7 +80,7 @@ curl --location 'http://localhost:9891/user/login' \
 
 - File Upload API
 
-curl --location 'http://localhost:9891/file/upload' \
+    - curl --location 'http://localhost:9891/file/upload' \
 --header 'accesstoken: <JSON_WEB_TOKEN>' \
 --form 'file=@"/home/khushal/sample.txt"' \
 --form 'title="sample title"' \
@@ -88,5 +88,5 @@ curl --location 'http://localhost:9891/file/upload' \
 
 - Get File using File Id API
 
-curl --location 'http://localhost:9891/file/files/8' \
+    - curl --location 'http://localhost:9891/file/files/8' \
 --header 'accesstoken: <JSON_WEB_TOKEN>'
