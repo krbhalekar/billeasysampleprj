@@ -30,7 +30,7 @@ Build a secure file upload service in Node.js that stores file metadata in a dat
 ## Usage
 
 - Run the below command to install all packages and dependencies
-    npm install
+    - npm install
 
 - Create .env file if not present
     - #POSTGRE DB DETAILS
