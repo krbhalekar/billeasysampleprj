@@ -13,21 +13,20 @@ Build a secure file upload service in Node.js that stores file metadata in a dat
 
 ## Project Structure
 
-- controller/
-- cron/
-- database/
-- node_modules/
-- redis/
-- routes/
-- services/
-- uploads/
-- utils/
-- .env
-- app.js
-- package.json
-- README.md
-  
-## 📁 Folder Structure ```text billeasysampleprj/ ├── controller/ │ ├── database/ │ ├── node_modules/ ├── src/ │ ├── components/ │ │ └── Header.jsx │ ├── App.js │ └── index.js ├── .gitignore ├── package.json └── README.md ```
+billeasysampleprj/
+├── controller/
+├── cron/
+├── database/
+├── node_modules/
+├── redis/
+├── routes/
+├── services/
+├── uploads/
+├── utils/
+└── .env
+└── app.js
+└── package.json
+└── README.md
 
 ## Usage
 
