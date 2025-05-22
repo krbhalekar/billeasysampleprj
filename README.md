@@ -14,7 +14,7 @@ Build a secure file upload service in Node.js that stores file metadata in a dat
 ## Project Structure
 
 billeasysampleprj/
-├── controller/
+│├── controller/
 ├── cron/
 ├── database/
 ├── node_modules/
