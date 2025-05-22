@@ -67,31 +67,16 @@ Build a secure file upload service in Node.js that stores file metadata in a dat
 
 - User Creation API
   ```bash
-  curl --location 'http://localhost:9891/user/create' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "email":"abc@gmail.com",
-    "password":"123456"
-}'
+  curl --location 'http://localhost:9891/user/create' \--header 'Content-Type: application/json' \--data-raw '{"email":"abc@gmail.com","password":"123456"}'
 
 - Login API
   ```bash
-  curl --location 'http://localhost:9891/user/login' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "email":"krb15784@gmail.com",
-    "password":"123456"
-}'
+  curl --location 'http://localhost:9891/user/login' \--header 'Content-Type: application/json' \--data-raw '{"email":"krb15784@gmail.com","password":"123456"}'
 
 - File Upload API
   ```bash
-  curl --location 'http://localhost:9891/file/upload' \
---header 'accesstoken: <JSON_WEB_TOKEN>' \
---form 'file=@"/home/khushal/sample.txt"' \
---form 'title="sample title"' \
---form 'description="this is description"'
+  curl --location 'http://localhost:9891/file/upload' \--header 'accesstoken: <JSON_WEB_TOKEN>' \--form 'file=@"/home/khushal/sample.txt"' \--form 'title="sample title"' \--form 'description="this is description"'
 
 - Get File using File Id API
   ```bash
-  curl --location 'http://localhost:9891/file/files/8' \
---header 'accesstoken: <JSON_WEB_TOKEN>'
+  curl --location 'http://localhost:9891/file/files/8' \--header 'accesstoken: <JSON_WEB_TOKEN>'
