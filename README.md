@@ -13,6 +13,7 @@ Build a secure file upload service in Node.js that stores file metadata in a dat
 
 ## Project Structure
 
+```text
 billeasysampleprj/
 │├── controller/
 ├── cron/
@@ -27,6 +28,7 @@ billeasysampleprj/
 └── app.js
 └── package.json
 └── README.md
+```
 
 ## Usage
 
