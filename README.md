@@ -27,7 +27,7 @@ Build a secure file upload service in Node.js that stores file metadata in a dat
 - package.json
 - README.md
   
-  <pre><code>## 📁 Folder Structure ```text billeasysampleprj/ ├── controller/ │ ├── database/ │ ├── node_modules/ ├── src/ │ ├── components/ │ │ └── Header.jsx │ ├── App.js │ └── index.js ├── .gitignore ├── package.json └── README.md ``` </code></pre>
+## 📁 Folder Structure ```text billeasysampleprj/ ├── controller/ │ ├── database/ │ ├── node_modules/ ├── src/ │ ├── components/ │ │ └── Header.jsx │ ├── App.js │ └── index.js ├── .gitignore ├── package.json └── README.md ```
 
 ## Usage
 
